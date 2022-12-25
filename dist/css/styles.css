@@ -11474,19 +11474,19 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background: linear-gradient(to bottom, black 45%, transparent);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000;
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -11498,6 +11498,17 @@ body {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+#mainNav .nav-link {
+  transition: none;
+  padding: 2rem 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+#mainNav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+#mainNav .nav-link:active {
+  color: #fff;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -11514,7 +11525,7 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
