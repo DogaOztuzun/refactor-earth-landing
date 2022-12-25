@@ -66,14 +66,12 @@
         }
 
         &.navbar-shrink {
-            background-color: $white;
+            background: linear-gradient(to bottom, black 45%, transparent);
 
             .navbar-brand {
-                color: $black;
             }
 
             .nav-link {
-                color: $black;
                 padding: 1.5rem 1.5rem 1.25rem;
                 border-bottom: 0.25rem solid transparent;
 
